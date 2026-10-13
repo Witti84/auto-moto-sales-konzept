@@ -31,7 +31,7 @@ DE, FR, IT, EN. Pro Sprache: Startseite, Direktverkauf, Inserate, Auto-Ankauf, M
 
 ## Formulare
 
-Vier Fahrzeugformulare in drei Schritten und ein Kontaktformular. Pflichtfeldprüfung, E-Mail-Prüfung, bis zu 15 Bilddateien (JPG/PNG/WebP, insgesamt 3 MB), Bildvorschau und Entfernen, Ausstattung, Preisvorstellung, Unterschrift als Namenseingabe und Zusammenfassung. Die Vorschau sendet keine Daten, löst keine Bestellung aus und speichert keine personenbezogenen Daten im Web Storage. Eingaben werden beim Seitenwechsel verworfen.
+Vier Fahrzeugformulare in drei Schritten und ein Kontaktformular. Pflichtfeldprüfung, E-Mail-Prüfung, bis zu 15 Bilddateien (JPG/PNG/WebP, maximal 20 MB je Originalfoto, automatische JPEG-Verkleinerung auf höchstens 190 KB je Foto), Bildvorschau und Entfernen, Ausstattung, Preisvorstellung, optionale Zusatzangaben und Zusammenfassung einer unverbindlichen Anfrage. Die Vorschau sendet keine Daten, löst keine Bestellung aus und speichert keine personenbezogenen Daten im Web Storage. Eingaben werden beim Seitenwechsel verworfen.
 
 `api/inquiry.mjs` ist ein optionaler Vercel-Adapter für einen explizit freigegebenen multipart/form-data Webhook. Er ist standardmässig deaktiviert und verweigert Versand mit HTTP 503. Aktivierung erst nach Prüfung des Empfängers, seiner Antwortsemantik, Datenschutztexten und Zustelltests. Benötigt `FORMS_LIVE=true`, `FORMS_WEBHOOK` und optional `FORMS_WEBHOOK_TOKEN`. Der Server prüft Origin, Felder, E-Mail, Grösse und Dateitypen. Produktionsseitigen Spam-/Rate-Limit-Schutz am Empfänger oder der Vercel Firewall ergänzen. Kein vorhandenes Kundensystem wurde mit Testanfragen belastet.
 
@@ -53,7 +53,7 @@ Inhalte sind in `src/content.mjs` getrennt von Layout/Interaktion. Komponenten f
 - Bestätigte Inseratdauer: bis zum Verkauf, ohne Abo oder monatliche Gebühren. Nach Verkaufsmeldung entfernt das Team die Inserate. Rechtstexte vor dem produktiven Betrieb mit dem bestätigten Angebot abgleichen.
 - Unternehmensdaten übernommen: Haldenstrasse 72, 4900 Langenthal, 062 923 99 66, info@auto-moto-sales.ch.
 - Rechtliches ist ein gekennzeichneter Entwurf mit Link auf bisherige AGB. Kein fertig freigegebener Rechtstext. Die Privacy-Copy ist derzeit ausdrücklich auf den Demo-Modus ausgelegt.
-- Intro wird pro Sitzung einmal gezeigt (Session-Storage-Marker ohne Personendaten), ist überspringbar, erneut abspielbar und respektiert reduzierte Bewegung. Laufzeit etwa 3,2 Sekunden plus Übergang.
+- Die Startseite ist sofort bedienbar; eine dezente Animation läuft im Hero. Das vollständige BMW-Intro bleibt über «Intro erneut ansehen» verfügbar und respektiert reduzierte Bewegung.
 
 ## Bildquellen
 
