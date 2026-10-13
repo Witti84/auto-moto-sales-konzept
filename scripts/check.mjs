@@ -37,7 +37,7 @@ for(const lang of languages)for(const [key,slug]of Object.entries(slugs[lang])){
   const target=match[1];if(target.startsWith('/api/'))continue;
   let f=path.join('dist',target);if(target.endsWith('/'))f=path.join(f,'index.html');assert(fs.existsSync(f),file+' missing '+target);links++;
  }
- if(/^(auto|moto)/.test(key)){assert.equal((html.match(/<fieldset data-step=/g)||[]).length,3);assert(html.includes('accept="image/jpeg,image/png,image/webp"'));assert(html.includes('name="signature"'));assert(html.includes('name="consent"'));assert(html.includes('class="review" hidden'));}
+ if(/^(auto|moto)/.test(key)){assert.equal((html.match(/<fieldset data-step=/g)||[]).length,3);assert(html.includes('accept="image/jpeg,image/png,image/webp"'));assert(!html.includes('name="signature"'));assert(!html.includes('name="date"'));assert(!/name="power"[^>]*required/.test(html));assert(html.includes('name="consent"'));assert(html.includes('class="review" hidden'));}
  if(key==='contact')assert(html.includes('name="message"'));
  pages++;
 }
