@@ -7,3 +7,6 @@
 .intro-scene:before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 10% 17% at 30% 82%,#d9f2ff16 0%,transparent 75%),radial-gradient(ellipse 10% 17% at 70% 82%,#d9f2ff16 0%,transparent 75%);mix-blend-mode:screen;opacity:0;z-index:2;pointer-events:none}
 .running .intro-scene:before{animation:beam-pulse 2.6s ease forwards}
 @keyframes beam-pulse{0%,56%{opacity:0}68%{opacity:.65}85%,100%{opacity:0}}
+
+/* A discreet maker credit, separate from company and legal links. */
+.voixero-credit{display:flex;justify-content:flex-end;margin-top:22px}.voixero-credit a{display:inline-flex;align-items:center;gap:11px;padding:9px 13px;border:1px solid #142f2e14;border-radius:999px;background:#f7f4ec80;transition:background .2s,border-color .2s}.voixero-credit a:hover{background:var(--paper);border-color:#24cba766}.voixero-credit span{font-size:10px;color:var(--muted);letter-spacing:.025em}.voixero-credit img{display:block;width:104px;height:auto}.voixero-credit .credit-arrow{font-size:14px;color:var(--deep)}@media(max-width:600px){.voixero-credit{justify-content:flex-start;margin-top:18px}.voixero-credit a{gap:9px}.voixero-credit img{width:92px}}
