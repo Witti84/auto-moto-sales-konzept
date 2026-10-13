@@ -1,0 +1,1 @@
+{"name":"auto-moto-sales-redesign","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node build.mjs","check":"node scripts/check.mjs"},"engines":{"node":">=22"}}

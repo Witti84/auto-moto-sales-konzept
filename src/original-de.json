@@ -1,0 +1,249 @@
+{
+  "navbar": {
+    "language": {
+      "english": "Englisch",
+      "french": "Französisch",
+      "german": "Deutsch"
+    },
+    "routes": {
+      "home": "startseite",
+      "contact": "kontakt",
+      "purchase": "ankauf",
+      "motoSale": "motorrad-verkauf",
+      "autoSale": "auto-verkauf",
+      "motoPurchase": "motorrad-ankauf",
+      "autoPurchase": "auto-ankauf",
+      "sale": "verkauf",
+      "terms": "agb",
+      "privacyPolicy": "datenschutz",
+      "successPage": "erfolgsseite",
+      "autoSaleInfo": "auto-verkaufsinfo",
+      "motoSaleInfo": "moto-verkaufsinfo"
+    }
+  },
+  "main": {
+    "home": {
+      "title": "Was wir anbieten",
+      "content1": "Wir kaufen und verkaufen Autos und Motorräder – direkt oder über unser Netzwerk vertrauenswürdiger Händler.",
+      "content2": "Ob Sie Ihr Fahrzeug schnell verkaufen oder den idealen Käufer finden möchten, wir bieten reibungslose Lösungen für Privatpersonen und Unternehmen."
+    }
+  },
+  "footer": {
+    "quickLinks": {
+      "title": "Schnellzugriff",
+      "privacyPolicy": "Allgemeine Geschäftsbedingungen (AGB)",
+      "termsOfUse": "Nutzungsbedingungen",
+      "home": "Startseite",
+      "contact": "Kontakt"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "content": "Wir sind hier, um Sie zu unterstützen!",
+      "mini-title": "Hinterlassen Sie uns eine Nachricht",
+      "email": "E-Mail: support@example.com"
+    },
+    "companyLogo": "Firmenlogo",
+    "partner": "Partner"
+  },
+  "autopurchaseform": {
+    "labels": {
+      "vorname": "Vorname *",
+      "nachname": "Nachname *",
+      "email": "E-Mail *",
+      "strasse": "Straße / Nr. *",
+      "telefon1": "Telefon 1 *",
+      "telefon2": "Telefon 2",
+      "marke": "Marke *",
+      "plz": "PLZ / Ort *",
+      "fahrzeugtyp": "Fahrzeugtyp *",
+      "modell": "Modell *",
+      "getriebeart": "Getriebeart *",
+      "kraftstoff": "Kraftstoff *",
+      "leistungps": "Leistung PS *",
+      "letzte_mfk": "Letzte MFK",
+      "erstzulassung": "Erstzulassung *",
+      "kilometerstand": "Kilometerstand *",
+      "tueren": "Türen *",
+      "farbe": "Farbe *",
+      "hubraum": "Hubraum (ccm)",
+      "preis": "Preis *",
+      "jahrgang": "Jahrgang",
+      "bemerkungen": "Bemerkungen",
+      "fotos": "Foto hinzufügen",
+      "unterschrift": "Unterschrift *",
+      "ausstattungen": "Ausstattungen:",
+      "abs": "ABS",
+      "4wd": "4WD",
+      "sperrdifferential": "Sperrdifferential",
+      "tiefergelegt": "Tiefergelegt",
+      "klimaanlage": "Klimaanlage",
+      "klimaautomatik": "Klimaautomatik",
+      "tempomat": "Tempomat",
+      "zentralveriegelung": "Zentralverriegelung",
+      "zv_m_fernbedienung": "Zentralverriegelung mit Fernbedienung",
+      "alarmanlage": "Alarmanlage",
+      "servolenkung": "Servolenkung",
+      "el_fensterheber_vorn": "Elektrische Fensterheber vorne",
+      "el_fensterheber_hinten": "Elektrische Fensterheber hinten",
+      "wegfahrsperre": "Wegfahrsperre",
+      "sitzmemory": "Sitzmemory",
+      "sportsitze": "Sportsitze",
+      "sitzheizung_vorne": "Sitzheizung vorne",
+      "sitzheizung_hinten": "Sitzheizung hinten",
+      "standheizung": "Standheizung",
+      "LED": "LED",
+      "navigationssystem": "Navigationssystem",
+      "bordcomputer": "Bordcomputer",
+      "nebelscheinwerfer_vorne": "Nebelscheinwerfer vorne",
+      "winterpneu": "Winterreifen",
+      "alufelgen": "Alufelgen",
+      "sommerpneu": "Sommerreifen",
+      "stahlfelgen": "Stahlfelgen",
+      "ganzjahrespneu": "Ganzjahresreifen",
+      "el_verstellbarer_sitz_fahrer": "Elektrisch verstellbarer Fahrersitz",
+      "beifahrer": "Beifahrer",
+      "airbag_fahrer": "Airbag Fahrer",
+      "airbag_beifahrer": "Airbag Beifahrer",
+      "sideairbags": "Seitenairbags",
+      "autoPurchaseForm-miniTitle": "Auto-Kaufformular",
+      "purchase-auto-title": "Wir kaufen Ihr Auto",
+      "sub-title": "Der Kauf eines Fahrzeugs erfordert die Überprüfung des Eigentums und die Sicherstellung, dass der Titel frei von Problemen ist. Ein ordnungsgemäßer Kaufvertrag bestätigt das rechtmäßige Eigentum und sichert eine reibungslose Transaktion.",
+      "formSubmitted": "Formular erfolgreich eingereicht!",
+      "requestSuccessMessage": "Ihre Anfrage wurde erfolgreich übermittelt.",
+      "backToHome": "Zurück zur Startseite",
+      "autoSaleForm-miniTitle": "Auto-Verkaufsformular",
+      "sale-auto-title": "Verkaufen Sie Ihr Auto",
+      "sub-title-sale": "Wir helfen Ihnen, Ihr Auto mit Vertrauen zu verkaufen. Unser Prozess stellt die Eigentumsüberprüfung sicher, sorgt für einen sauberen Titel und einen ordnungsgemäßen Verkaufsvertrag für eine reibungslose und problemlose Transaktion.",
+      "submit": "Einreichen",
+      "formErrors": "Bitte korrigieren Sie die Fehler, bevor Sie das Formular absenden.",
+      "required": "ist erforderlich.",
+      "invalidEmail": "Ungültige E-Mail-Adresse."
+    }
+  },
+  "motolabels": {
+    "title": "Motorrad-Kaufformular",
+    "heading": "Wir kaufen Ihr Motorrad",
+    "paragraph": "Übermitteln Sie die Details Ihres Motorrads und warten Sie auf unser Angebot",
+    "titlesale": "Verkaufen Sie Ihr Motorrad",
+    "headingsale": "Wir helfen Ihnen gerne beim Verkauf Ihres Motorrads!",
+    "paragraphsale": "Alle Motorräder werden bis zum erfolgreichen Verkauf beworben.",
+    "fname": "Vorname",
+    "lname": "Nachname",
+    "phone1": "Telefon 1",
+    "phone2": "Telefon 2",
+    "email": "E-Mail",
+    "street": "Straße / Nr.",
+    "zip": "PLZ / Ort",
+    "brand": "Marke",
+    "model": "Modell",
+    "inspection": "Letzte Inspektion",
+    "mfk": "Von MFK",
+    "yes": "Ja",
+    "no": "Nein",
+    "mileage": "Kilometerstand",
+    "cc": "cc",
+    "ps": "PS",
+    "color": "Farbe",
+    "year": "Jahr",
+    "price": "Preisvorschlag",
+    "extras": "Extras",
+    "chopper": "Chopper",
+    "enduro": "Enduro",
+    "gespanne": "Gespanne",
+    "oldtimer": "Oldtimer",
+    "strassenmaschine": "Straßenmaschine",
+    "roller": "Roller",
+    "photo": "Foto hinzufügen",
+    "date": "Datum",
+    "signature": "Unterschrift",
+    "signaturePlaceholder": "Vorname und Nachname",
+    "remarks": "Bemerkungen",
+    "submit": "EINREICHEN"
+  },
+  "landing": {
+    "miniTitle": "Wir kaufen Ihr Auto",
+    "headingTitle": "AS Auto Moto Sales GmbH",
+    "paragraph": "Wir kaufen Autos und Motorräder direkt oder über andere Händler oder helfen beim Verkauf direkt an Privatpersonen.",
+    "cards": {
+      "purchase": "Kauf",
+      "sale": "Verkauf"
+    }
+  },
+  "salePage": {
+    "miniTitle": "Verkaufsseite",
+    "headingTitle": "Kategorie auswählen",
+    "paragraph": "Bitte wählen Sie Ihre Fahrzeugkategorie",
+    "cards": {
+      "auto": "AUTO",
+      "moto": "MOTO"
+    }
+  },
+  "buyPage": {
+    "miniTitle": "Kaufseite",
+    "headingTitle": "Fahrzeug auswählen",
+    "paragraph": "Bitte wählen Sie die Fahrzeugkategorie, die Sie kaufen möchten.",
+    "cards": {
+      "auto": "AUTO",
+      "moto": "MOTO"
+    }
+  },
+  "contactPage": {
+    "fname": "Vorname",
+    "lname": "Nachname",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "message": "Ihre Nachricht",
+    "submit": "EINREICHEN",
+    "callUs": "Rufen sie uns an",
+    "callUsHours": "9-12 Uhr und 13:30-16:30 Uhr",
+    "emailUs": "Senden Sie uns eine E-Mail an"
+  },
+  "agb": {
+    "title": "Allgemeine Geschäftsbedingungen AS Auto Moto Sales GmbH",
+    "paragraph1": "1. Die AS Auto Moto Sales GmbH (nachfolgend AS genannt) veröffentlicht im Auftrag ihrer Kunden Anzeigen zum Verkauf von Fahrzeugen auf den Plattformen gemäß www.auto-moto-sales.ch. Die Werbung der Kunden per Telefon erfolgt erst, nachdem eine rechtliche Geschäftsbeziehung hergestellt wurde, wenn ein Kaufangebot zum Zwecke des Weiterverkaufs zu einem niedrigeren als dem angegebenen Preis vorgeschlagen, aber nicht angenommen wurde.",
+    "paragraph2": "2. Alle Anzeigen werden im Namen des Kunden veröffentlicht und enthalten seine Telefonnummer. Namen/Adressen werden auf Wunsch nicht veröffentlicht. Interessenten an den Fahrzeugen können den Inserenten direkt telefonisch oder per E-Mail kontaktieren.",
+    "paragraph3": "3. Das Rechtsverhältnis bezüglich des Verkaufs des Fahrzeugs besteht ausschließlich zwischen dem Kunden und dem potenziellen Käufer des Fahrzeugs. Jegliche Haftung seitens AS ist ausgeschlossen.",
+    "paragraph4": "4. AS veröffentlicht die Anzeigen der Fahrzeuge auf den Plattformen gemäß Punkt 1 zu einer Pauschalgebühr von 149 CHF (Autos) oder 98 CHF (Motorräder) zum vereinbarten Datum mit dem Kunden.",
+    "paragraph5": "5. Änderungen der Anzeigen können kostenlos vorgenommen werden (insbesondere Preis, Kilometerstand, Bemerkungen oder Fotos). Der Kunde hat keinen direkten Zugriff auf die Anzeigen, kann jedoch Änderungswünsche telefonisch oder per E-Mail mitteilen, die in der Regel innerhalb von 6 Stunden während der Bürozeiten vorgenommen werden.",
+    "paragraph6": "6. Die Anzeigen werden für 70 Tage veröffentlicht. Sie können kostenlos bis zum Verkauf auf den aktuellen Plattformen gemäß www.auto-moto-sales.ch verlängert werden.",
+    "paragraph7": "7. AS veröffentlicht die Anzeigen auf bekannten und etablierten Websites mit den besten Chancen, das Fahrzeug erfolgreich zu verkaufen, kann jedoch das Ergebnis nicht garantieren.",
+    "paragraph8": "8. Wenn der Kunde den Auftrag zur Veröffentlichung an AS nach einem telefonischen Kontakt durch AS erteilt hat, hat er das Recht, den Auftrag innerhalb von 14 Tagen zu widerrufen, sofern der Rechnungsbetrag 100 CHF übersteigt. Gemäß Art. 40f, Abs. 3 in Verbindung mit Art. 402 des Obligationenrechts müssen die bis zu diesem Zeitpunkt angefallenen Kosten und Auslagen erstattet werden.",
+    "paragraph9": "9. Wenn der Kunde die Rechnung nicht innerhalb der Zahlungsfrist bezahlt, sind Verzugszinsen von 5% ohne Mahnung fällig. Ab der zweiten Mahnung sind Bearbeitungsgebühren von 20 CHF pro Mahnung fällig.",
+    "paragraph10": "10. Im Falle eines Rechtsstreits ist der Gerichtsstand Langenthal, vorbehältlich zwingender gesetzlicher Gerichtsstände."
+  },
+  "full": {
+    "title1": "Fahrzeugvermittlung",
+    "title2": "Schweiz",
+    "section1": "Nutzen Sie unser Serviceangebot, um Ihre Fahrzeuge in der gesamten Schweiz zu vermitteln! Monatlich suchen mehrere Hundert Personen bei uns nach Fahrzeugen aller Art und erhalten kostenlos Unterlagen über Ihr Auto sowie den Namen des Verkäufers. Alle Fahrzeuge werden bis zum erfolgreichen Verkauf inseriert.",
+    "section2": "Profitieren Sie von unserem Einzelinserat, das Ihre Kontaktdaten enthält, sowie von unserer \"Top\"-Angebotsposition (auf den ersten Plätzen), um die Sichtbarkeit zu maximieren. Mit einer prioritären Insertion, die bis zu 15 Bilder beinhaltet (sonst kostenpflichtig), garantieren wir die beste Präsentation Ihrer Fahrzeuge.",
+    "section3": "Dieses umfassende Dienstleistungspaket kostet Sie nur CHF 149.--(inkl. MwSt.), bei der Anmeldung von 2 Fahrzeugen zahlen Sie nur CHF 129.-- pro Fahrzeug – einmalig!",
+    "section4": "Die Inserate bleiben online, ohne zeitliche Begrenzung, und ermöglichen eine dauerhafte Präsentation Ihrer Fahrzeuge."
+  },
+  "full2": {
+    "title1": "Fahrzeugverkauf",
+    "title2": "und Inserate",
+    "part1": "Wir vermitteln Ihre Fahrzeuge in der ganzen Schweiz. Monatlich suchen bei uns mehrere Hundert Personen Fahrzeuge aller Art und erhalten kostenlos Unterlagen über das gesuchte Auto und den Namen des Verkäufers. Alle Fahrzeuge werden bis zum erfolgreichen Verkauf inseriert.",
+    "part2": "Unser Ziel ist es, Ihnen eine effiziente und schnelle Verkaufsabwicklung zu ermöglichen. Dabei kümmern wir uns um sämtliche Details, damit Sie sich auf das Wesentliche konzentrieren können.",
+    "part3": "Dieses Dienstleistungspaket kostet Sie nur:\n\n- sFr. 98.– für 1 Fahrzeug\n- ab 2 Fahrzeugen je sFr. 85.– (inkl. MwSt.)",
+    "part4": "Die Insertionen im Internet erfolgen ohne zeitliche Limitierung! Unser Service ist unkompliziert, zuverlässig und transparent, und wir bieten Ihnen maximale Sichtbarkeit bei potenziellen Käufern in der ganzen Schweiz.",
+    "part5": "Wir erleichtern den Verkauf Ihrer Fahrzeuge in der ganzen Schweiz. Jeden Monat suchen mehrere hundert Menschen bei uns nach verschiedenen Fahrzeugen und erhalten kostenlose Dokumente über das Auto, das sie interessiert, zusammen mit den Kontaktdaten des Verkäufers. Alle Fahrzeuge bleiben so lange gelistet, bis sie erfolgreich verkauft sind."
+  },
+  "SellAutoInt": {
+    "header": "Wir vermitteln Ihre Fahrzeuge in der ganzen Schweiz.",
+    "description": "Monatlich suchen bei uns mehrere Hundert Personen Fahrzeuge aller Art und erhalten kostenlos Unterlagen über das gesuchte Auto und den Namen des Verkäufers. Alle Fahrzeuge werden bis zum erfolgreichen Verkauf inseriert.",
+    "inserat": "Einzelinserat mit Ihren Kontaktdaten unter:",
+    "top": "Angebot \"top\" (auf den ersten Plätzen)",
+    "prioritaet": "Prioritäre Insertion mit bis zu 15 Bildern (sonst kostenpflichtig)",
+    "kosten": "Dieses Dienstleistungspaket kostet Sie nur sFr. 149.--, ab 2 Fahrzeugen je sFr. 129.-- (inkl. MwSt.) ! Einmalig:",
+    "internet": "Die Insertionen im Internet erfolgen ohne zeitliche Limitierung!",
+    "furtherpage": "Daten des Fahrzeuges eintragen"
+  },
+  "SellMotoInt": {
+    "header": "Wir vermitteln Ihre Fahrzeuge in der ganzen Schweiz.",
+    "description": "Monatlich suchen bei uns mehrere Hundert Personen Fahrzeuge aller Art und erhalten kostenlos Unterlagen über das gesuchte Auto und den Namen des Verkäufers. Alle Fahrzeuge werden bis zum erfolgreichen Verkauf inseriert.",
+    "inserat": "Einzelinserat mit Ihren Kontaktdaten unter:",
+    "dienstleistung": "Dieses Dienstleistungspaket kostet Sie nur sFr. 98.–, ab 2 Fahrzeugen je sFr. 85.– (inkl. MwSt.) !",
+    "internet": "Die Insertionen im Internet erfolgen ohne zeitliche Limitierung!",
+    "verkauf_an_privaten": "INSERTIONEN VERKAUF AN PRIVAT Motorrad De"
+  }
+}

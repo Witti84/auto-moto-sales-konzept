@@ -1,0 +1,249 @@
+{
+  "navbar": {
+    "language": {
+      "english": "English",
+      "french": "French",
+      "german": "German"
+    },
+    "routes": {
+      "home": "home",
+      "contact": "contact",
+      "purchase": "purchase",
+      "motoSale": "moto-sale",
+      "autoSale": "auto-sale",
+      "motoPurchase": "moto-purchase",
+      "autoPurchase": "auto-purchase",
+      "sale": "sale",
+      "terms": "terms",
+      "privacyPolicy": "privacy-policy",
+      "successPage": "success-page",
+      "autoSaleInfo": "auto-sale-info",
+      "motoSaleInfo": "moto-sale-info"
+    }
+  },
+  "main": {
+    "home": {
+      "title": "What We Offer",
+      "content1": "We buy and sell cars and motorcycles – directly or through our trusted dealer network.",
+      "content2": "Whether you're looking to sell your vehicle quickly or find the perfect buyer, we provide seamless solutions for both private individuals and businesses."
+    }
+  },
+  "footer": {
+    "quickLinks": {
+      "title": "Quick Links",
+      "privacyPolicy": "Terms and Conditions (AGB)",
+      "termsOfUse": "Terms of Use",
+      "home": "Home",
+      "contact": "Contact"
+    },
+    "contact": {
+      "title": "Contact",
+      "content": "We are here to support you!",
+      "mini-title": "Leave us a message",
+      "email": "Email: support@example.com"
+    },
+    "companyLogo": "Company Logo",
+    "partner": "Partner"
+  },
+  "autopurchaseform": {
+    "labels": {
+      "vorname": "First Name *",
+      "nachname": "Last Name *",
+      "email": "Email *",
+      "strasse": "Street / No. *",
+      "telefon1": "Phone 1 *",
+      "telefon2": "Phone 2",
+      "marke": "Brand *",
+      "plz": "Postal Code / City *",
+      "fahrzeugtyp": "Vehicle Type *",
+      "modell": "Model *",
+      "getriebeart": "Transmission Type *",
+      "kraftstoff": "Fuel *",
+      "leistungps": "Power PS *",
+      "letzte_mfk": "Last MFK",
+      "erstzulassung": "First Registration *",
+      "kilometerstand": "Mileage *",
+      "tueren": "Doors *",
+      "farbe": "Color *",
+      "hubraum": "Displacement (ccm)",
+      "preis": "Price *",
+      "jahrgang": "Year",
+      "bemerkungen": "Remarks",
+      "fotos": "Add Photo",
+      "unterschrift": "Signature *",
+      "ausstattungen": "Features:",
+      "abs": "ABS",
+      "4wd": "4WD",
+      "sperrdifferential": "Limited Slip Differential",
+      "tiefergelegt": "Lowered",
+      "klimaanlage": "Air Conditioning",
+      "klimaautomatik": "Automatic Climate Control",
+      "tempomat": "Cruise Control",
+      "zentralveriegelung": "Central Locking",
+      "zv_m_fernbedienung": "Central Locking with Remote Control",
+      "alarmanlage": "Alarm System",
+      "servolenkung": "Power Steering",
+      "el_fensterheber_vorn": "Power Windows Front",
+      "el_fensterheber_hinten": "Power Windows Rear",
+      "wegfahrsperre": "Immobilizer",
+      "sitzmemory": "Seat Memory",
+      "sportsitze": "Sports Seats",
+      "sitzheizung_vorne": "Heated Seats Front",
+      "sitzheizung_hinten": "Heated Seats Rear",
+      "standheizung": "Auxiliary Heating",
+      "LED": "LED",
+      "navigationssystem": "Navigation System",
+      "bordcomputer": "Onboard Computer",
+      "nebelscheinwerfer_vorne": "Fog Lights Front",
+      "winterpneu": "Winter Tires",
+      "alufelgen": "Alloy Wheels",
+      "sommerpneu": "Summer Tires",
+      "stahlfelgen": "Steel Wheels",
+      "ganzjahrespneu": "All-Season Tires",
+      "el_verstellbarer_sitz_fahrer": "Power Adjustable Seat - Driver",
+      "beifahrer": "Passenger",
+      "airbag_fahrer": "Driver Airbag",
+      "airbag_beifahrer": "Passenger Airbag",
+      "sideairbags": "Side Airbags",
+      "autoPurchaseForm-miniTitle": "Auto Purchase Form",
+      "autoSaleForm-miniTitle": "Auto Sale Form",
+      "purchase-auto-title": "We Buy Your Car",
+      "sale-auto-title": "Sell Your Car",
+      "sub-title": "Purchasing a vehicle requires verifying ownership and ensuring the title is free of issues. A proper purchase agreement confirms legal ownership and ensures a smooth transaction.",
+      "sub-title-sale": "We help you sell your car with confidence. Our process ensures ownership verification, a clean title, and a proper sales agreement for a smooth and hassle-free transaction.",
+      "formErrors": "Please correct the errors before submitting.",
+      "formSubmitted": "Form Submitted Successfully!",
+      "requestSuccessMessage": "Your request has been submitted with success.",
+      "backToHome": "Back to Home",
+      "submit": "Submit",
+      "required": " is required.",
+      "invalidEmail": "Please enter a valid email address."
+    }
+  },
+  "motolabels": {
+    "title": "Motorcycle Purchase Form",
+    "heading": "We Buy Your Motorcycle",
+    "paragraph": "Submit the details of your motorcycle and wait for our offer",
+    "titlesale": "Sell Your Motorcycle",
+    "headingsale": "We are happy to assist you in selling your motorcycle!",
+    "paragraphsale": "All motorcycles will be advertised until they are successfully sold.",
+    "fname": "First name",
+    "lname": "Last name",
+    "phone1": "Phone 1",
+    "phone2": "Phone 2",
+    "email": "Email",
+    "street": "Street / No.",
+    "zip": "ZIP / City",
+    "brand": "Brand",
+    "model": "Model",
+    "inspection": "Last Inspection",
+    "mfk": "From MFK",
+    "yes": "Yes",
+    "no": "No",
+    "mileage": "Mileage",
+    "cc": "CC",
+    "ps": "PS",
+    "color": "Color",
+    "year": "Year",
+    "price": "Price Proposal",
+    "extras": "Extras",
+    "chopper": "Chopper",
+    "enduro": "Enduro",
+    "gespanne": "Gespanne",
+    "oldtimer": "Oldtimer",
+    "strassenmaschine": "Strassenmaschine",
+    "roller": "Roller",
+    "photo": "Add Photo",
+    "date": "Date",
+    "signature": "Signature",
+    "signaturePlaceholder": "First and last name",
+    "remarks": "Remarks",
+    "submit": "SUBMIT"
+  },
+  "landing": {
+    "miniTitle": "We Buy Your Car",
+    "headingTitle": "AS Auto Moto Sales GmbH",
+    "paragraph": "We purchase cars and motorcycles directly or through other dealers or assist in selling them directly to individuals.",
+    "cards": {
+      "purchase": "Purchase",
+      "sale": "Sale"
+    }
+  },
+  "salePage": {
+    "miniTitle": "Sale page",
+    "headingTitle": "Select Category",
+    "paragraph": "Please select your category of vehicle",
+    "cards": {
+      "auto": "AUTO",
+      "moto": "MOTO"
+    }
+  },
+  "buyPage": {
+    "miniTitle": "Buy page",
+    "headingTitle": "Select Vehicle",
+    "paragraph": "Please choose the category of vehicle you'd like to buy.",
+    "cards": {
+      "auto": "AUTO",
+      "moto": "MOTO"
+    }
+  },
+  "contactPage": {
+    "fname": "First name",
+    "lname": "Last name",
+    "phone": "Phone",
+    "email": "Email",
+    "message": "Your message",
+    "submit": "SUBMIT",
+    "callUs": "Call us",
+    "callUsHours": "9 AM - 12 PM and 1:30 PM - 4:30 PM",
+    "emailUs": "Send an email"
+  },
+  "agb": {
+    "title": "Terms and Conditions AS Auto Moto Sales GmbH",
+    "paragraph1": "1. The company AS Auto Moto Occasion Sales GmbH (hereinafter referred to as AS) publishes advertisements on behalf of customers for the sale of vehicles on the platforms as per www.auto-moto-sales.ch. The advertising of customers by phone occurs exclusively after a legal business relationship has been established, where a purchase offer for resale at a lower price than the listed price is offered but not accepted.",
+    "paragraph2": "2. All advertisements are published on behalf of the customer and include their phone number. Names/addresses will not be published upon request. Interested parties for the vehicles can contact the advertiser directly by phone or email.",
+    "paragraph3": "3. The legal relationship regarding the vehicle sale exists exclusively between the customer and the potential buyer of the vehicle. Any liability of AS is excluded.",
+    "paragraph4": "4. AS will post the vehicle listings on the platforms according to paragraph 1 for a flat fee of CHF 149 for cars and CHF 98 for motorcycles, at the time agreed with the customer.",
+    "paragraph5": "5. Changes to the listings can be made free of charge (including price, mileage, remarks, or photos). The customer does not have direct access to the listings but can request changes by phone or email, which will generally be made within 6 hours during business hours.",
+    "paragraph6": "6. The advertisements will be published for 70 days. They can be extended free of charge until the sale on the current platforms mentioned on www.auto-moto-sales.ch.",
+    "paragraph7": "7. AS publishes the advertisements on well-known and established sites with the best chances of successfully selling the vehicle, but cannot ultimately guarantee this.",
+    "paragraph8": "8. If the customer has given the insertion order to AS upon telephone contact by AS, the customer has the right to withdraw the order within 14 days, provided the invoice amount exceeds CHF 100. According to Article 40f (3) in connection with Article 402 of the Swiss Code of Obligations, any expenses and costs incurred up to that point must be reimbursed.",
+    "paragraph9": "9. If the customer does not pay the invoice within the payment term, interest on arrears of 5% will be charged automatically without further reminder. From the second reminder, a handling fee of CHF 20 will be due for each reminder.",
+    "paragraph10": "10. In case of disputes, the jurisdiction shall be Langenthal, subject to mandatory legal jurisdiction."
+  },
+  "full": {
+    "title1": "Vehicle Promotion",
+    "title2": "Switzerland",
+    "section1": "Take advantage of our service to promote your vehicles throughout Switzerland! Every month, hundreds of people search for vehicles of all kinds with us and receive free information about your car and the seller's contact details. All vehicles are listed until they are successfully sold.",
+    "section2": "Benefit from our individual ad, which includes your contact details, as well as our \"Top\" offer position(on the first pages), maximizing visibility. With priority insertion that includes up to 15 pictures (otherwise at an additional cost), we ensure the best presentation for your vehicles.",
+    "section3": "This comprehensive service package costs only CHF 149.--(incl. VAT), and if you list 2 vehicles, you only pay CHF 129.--per vehicle – one-time fee!",
+    "section4": "The listings remain online with no time limit, allowing for continuous promotion of your vehicles."
+  },
+  "full2": {
+    "title1": "Vehicle Sales",
+    "title2": "and Listings",
+    "part1": "We facilitate the sale of your vehicles throughout Switzerland. Every month, several hundred people search for all kinds of vehicles with us and receive free documents about the car they are looking for, along with the seller's contact details. All vehicles are listed until successfully sold.",
+    "part2": "Our goal is to ensure an efficient and fast sales process for you. We handle all the details so you can focus on what's important.",
+    "part3": "This service package costs you only:\n\n- CHF 98.– for 1 vehicle\n- From 2 vehicles CHF 85.– each (including VAT)",
+    "part4": "The online listings are unlimited in time! Our service is simple, reliable, and transparent, giving you maximum visibility among potential buyers across Switzerland.",
+    "part5": "We make it easy to sell your vehicles across Switzerland. Every month, hundreds of people come to us in search of various types of vehicles. They receive free documents about the car they're interested in, along with the seller's contact information. All listings stay up until the vehicle is successfully sold."
+  },
+  "SellAutoInt": {
+    "header": "We market your vehicles throughout Switzerland.",
+    "description": "Every month, hundreds of people search for all kinds of vehicles with us and receive free documents about the desired car and the seller's name. All vehicles are listed until successfully sold.",
+    "inserat": "Single ad with your contact details under:",
+    "top": "Offer \"top\" (in the top positions)",
+    "prioritaet": "Priority listing with up to 15 images (otherwise subject to a charge)",
+    "kosten": "This service package costs only CHF 149.--, from 2 vehicles CHF 129.-- each (incl. VAT)! One-time payment:",
+    "internet": "The listings on the internet have no time limitation!",
+    "furtherpage": "Enter the vehicle's details"
+  },
+  "SellMotoInt": {
+    "header": "We market your vehicles throughout Switzerland.",
+    "description": "Every month, hundreds of people search for all kinds of vehicles with us and receive free documents about the desired car and the seller's name. All vehicles are listed until successfully sold.",
+    "inserat": "Single ad with your contact details under:",
+    "dienstleistung": "This service package costs only CHF 98.--, from 2 vehicles CHF 85.-- each (incl. VAT)!",
+    "internet": "The listings on the internet have no time limitation!",
+    "verkauf_an_privaten": "PRIVATE SALE ADVERTISING Motorcycle De"
+  }
+}

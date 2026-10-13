@@ -1,0 +1,23 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": null,
+  "trailingSlash": true,
+  "redirects": [
+    {"source":"/","destination":"/de/","permanent":false},
+    {"source":"/de/startseite","destination":"/de/","permanent":true},
+    {"source":"/fr/accueil","destination":"/fr/","permanent":true},
+    {"source":"/en/home","destination":"/en/","permanent":true},
+    {"source":"/de/ankauf","destination":"/de/direkt-verkaufen/","permanent":true},
+    {"source":"/de/verkauf","destination":"/de/inserieren/","permanent":true}
+  ],
+  "headers": [
+    {"source":"/(.*)","headers":[
+      {"key":"X-Content-Type-Options","value":"nosniff"},
+      {"key":"Referrer-Policy","value":"strict-origin-when-cross-origin"},
+      {"key":"X-Frame-Options","value":"DENY"},
+      {"key":"Permissions-Policy","value":"camera=(), microphone=(), geolocation=()"}
+    ]}
+  ]
+}

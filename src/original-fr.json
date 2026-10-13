@@ -1,0 +1,249 @@
+{
+  "navbar": {
+    "language": {
+      "english": "Anglais",
+      "french": "Français",
+      "german": "Allemand"
+    },
+    "routes": {
+      "home": "accueil",
+      "contact": "contact",
+      "purchase": "vente",
+      "motoSale": "vente-moto",
+      "autoSale": "vente-auto",
+      "motoPurchase": "achat-moto",
+      "autoPurchase": "achat-auto",
+      "sale": "vente-generale",
+      "terms": "conditions-generales",
+      "privacyPolicy": "politique-de-confidentialite",
+      "successPage": "page-de-succes",
+      "autoSaleInfo": "info-vente-auto",
+      "motoSaleInfo": "info-vente-moto"
+    }
+  },
+  "main": {
+    "home": {
+      "title": "Ce que nous offrons",
+      "content1": "Nous achetons et vendons des voitures et des motos – directement ou via notre réseau de concessionnaires de confiance.",
+      "content2": "Que vous cherchiez à vendre rapidement votre véhicule ou à trouver l'acheteur idéal, nous proposons des solutions fluides pour les particuliers et les entreprises."
+    }
+  },
+  "footer": {
+    "quickLinks": {
+      "title": "Liens rapides",
+      "privacyPolicy": "Conditions Générales (CG)",
+      "termsOfUse": "Conditions d'utilisation",
+      "home": "Accueil",
+      "contact": "Kontakt"
+    },
+    "contact": {
+      "title": "Contact",
+      "content": "Nous sommes là pour vous aider !",
+      "mini-title": "Laissez-nous un message",
+      "email": "E-mail : support@example.com"
+    },
+    "companyLogo": "Logo de l'entreprise",
+    "partner": "Partenaire"
+  },
+  "autopurchaseform": {
+    "labels": {
+      "vorname": "Prénom *",
+      "nachname": "Nom *",
+      "email": "Email *",
+      "strasse": "Rue / N° *",
+      "telefon1": "Téléphone 1 *",
+      "telefon2": "Téléphone 2",
+      "marke": "Marque *",
+      "plz": "Code postal / Ville *",
+      "fahrzeugtyp": "Type de véhicule *",
+      "modell": "Modèle *",
+      "getriebeart": "Type de transmission *",
+      "kraftstoff": "Carburant *",
+      "leistungps": "Puissance PS *",
+      "letzte_mfk": "Dernière MFK",
+      "erstzulassung": "Première immatriculation *",
+      "kilometerstand": "Kilométrage *",
+      "tueren": "Portes *",
+      "farbe": "Couleur *",
+      "hubraum": "Cylindrée (ccm)",
+      "preis": "Prix *",
+      "jahrgang": "Année",
+      "bemerkungen": "Remarques",
+      "fotos": "Ajouter une photo",
+      "unterschrift": "Signature *",
+      "ausstattungen": "Équipements :",
+      "abs": "ABS",
+      "4wd": "4WD",
+      "sperrdifferential": "Différentiel à glissement limité",
+      "tiefergelegt": "Rabaissé",
+      "klimaanlage": "Climatisation",
+      "klimaautomatik": "Climatisation automatique",
+      "tempomat": "Régulateur de vitesse",
+      "zentralveriegelung": "Verrouillage centralisé",
+      "zv_m_fernbedienung": "Verrouillage centralisé avec télécommande",
+      "alarmanlage": "Alarme",
+      "servolenkung": "Direction assistée",
+      "el_fensterheber_vorn": "Vitres électriques avant",
+      "el_fensterheber_hinten": "Vitres électriques arrière",
+      "wegfahrsperre": "Antidémarrage",
+      "sitzmemory": "Mémoire de siège",
+      "sportsitze": "Sièges sport",
+      "sitzheizung_vorne": "Sièges chauffants avant",
+      "sitzheizung_hinten": "Sièges chauffants arrière",
+      "standheizung": "Chauffage stationnaire",
+      "LED": "LED",
+      "navigationssystem": "Système de navigation",
+      "bordcomputer": "Ordinateur de bord",
+      "nebelscheinwerfer_vorne": "Phares antibrouillard avant",
+      "winterpneu": "Pneus hiver",
+      "alufelgen": "Jantes en alliage",
+      "sommerpneu": "Pneus été",
+      "stahlfelgen": "Jantes en acier",
+      "ganzjahrespneu": "Pneus toutes saisons",
+      "el_verstellbarer_sitz_fahrer": "Siège conducteur réglable électriquement",
+      "beifahrer": "Passager",
+      "airbag_fahrer": "Airbag conducteur",
+      "airbag_beifahrer": "Airbag passager",
+      "sideairbags": "Airbags latéraux",
+      "autoPurchaseForm-miniTitle": "Formulaire d'achat Auto",
+      "purchase-auto-title": "Nous achetons votre voiture",
+      "sub-title": "L'achat d'un véhicule nécessite la vérification de la propriété et l'assurance que le titre est exempt de problèmes. Un contrat d'achat approprié confirme la propriété légitime et garantit une transaction fluide.",
+      "formSubmitted": "Formulaire soumis avec succès !",
+      "requestSuccessMessage": "Votre demande a été soumise avec succès.",
+      "backToHome": "Retour à l'accueil",
+      "autoSaleForm-miniTitle": "Formulaire de vente automobile",
+      "sale-auto-title": "Vendez votre voiture",
+      "sub-title-sale": "Nous vous aidons à vendre votre voiture en toute confiance. Notre processus garantit la vérification de la propriété, un titre clair et un contrat de vente approprié pour une transaction fluide et sans tracas.",
+      "submit": "Soumettre",
+      "formErrors": "Veuillez corriger les erreurs avant de soumettre.",
+      "required": " est requis.",
+      "invalidEmail": "Veuillez entrer une adresse e-mail valide."
+    }
+  },
+  "motolabels": {
+    "title": "Formulaire d'achat de moto",
+    "heading": "Nous achetons votre moto",
+    "paragraph": "Soumettez les détails de votre moto et attendez notre offre",
+    "titlesale": "Vendez votre moto",
+    "headingsale": "Nous sommes heureux de vous aider à vendre votre moto !",
+    "paragraphsale": "Toutes les motos seront annoncées jusqu'à leur vente réussie.",
+    "fname": "Prénom",
+    "lname": "Nom",
+    "phone1": "Téléphone 1",
+    "phone2": "Téléphone 2",
+    "email": "E-mail",
+    "street": "Rue / N°",
+    "zip": "Code postal / Ville",
+    "brand": "Marque",
+    "model": "Modèle",
+    "inspection": "Dernière inspection",
+    "mfk": "De MFK",
+    "yes": "Oui",
+    "no": "Non",
+    "mileage": "Kilométrage",
+    "cc": "cc",
+    "ps": "CV",
+    "color": "Couleur",
+    "year": "Année",
+    "price": "Proposition de prix",
+    "extras": "Extras",
+    "chopper": "Chopper",
+    "enduro": "Enduro",
+    "gespanne": "Gespanne",
+    "oldtimer": "Oldtimer",
+    "strassenmaschine": "Machine de rue",
+    "roller": "Roller",
+    "photo": "Ajouter une photo",
+    "date": "Date",
+    "signature": "Signature",
+    "signaturePlaceholder": "Prénom et nom",
+    "remarks": "Remarques",
+    "submit": "SOUMETTRE"
+  },
+  "landing": {
+    "miniTitle": "Nous achetons votre voiture",
+    "headingTitle": "AS Auto Moto Sales GmbH",
+    "paragraph": "Nous achetons des voitures et des motos directement ou par l'intermédiaire d'autres concessionnaires ou nous aidons à la vente directement aux particuliers.",
+    "cards": {
+      "purchase": "Achat",
+      "sale": "Vente"
+    }
+  },
+  "salePage": {
+    "miniTitle": "Page de vente",
+    "headingTitle": "Sélectionnez la catégorie",
+    "paragraph": "Veuillez sélectionnez votre catégorie de véhicule",
+    "cards": {
+      "auto": "AUTO",
+      "moto": "MOTO"
+    }
+  },
+  "buyPage": {
+    "miniTitle": "Page d'achat",
+    "headingTitle": "Sélectionnez le véhicule",
+    "paragraph": "Veuillez choisir la catégorie de véhicule que vous souhaitez acheter.",
+    "cards": {
+      "auto": "AUTO",
+      "moto": "MOTO"
+    }
+  },
+  "contactPage": {
+    "fname": "Prénom",
+    "lname": "Nom",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "message": "Votre message",
+    "submit": "SOUMETTRE",
+    "callUs": "APPELEZ-NOUS",
+    "callUsHours": "9h-12h et 13h30-16h30",
+    "emailUs": "Envoyez-nous un e-mail à"
+  },
+  "agb": {
+    "title": "Conditions générales AS Auto Moto Sales GmbH",
+    "paragraph1": "1. La société AS Auto Moto Occasion Sales GmbH (ci-après dénommée AS) publie des annonces pour le compte de ses clients concernant la vente de véhicules sur les plateformes selon www.auto-moto-sales.ch. La publicité des clients par téléphone n'est effectuée qu'après qu'une relation commerciale légale a été établie, lorsqu'une offre d'achat à des fins de revente à un prix inférieur à celui annoncé a été proposée mais non acceptée.",
+    "paragraph2": "2. Toutes les annonces sont publiées au nom du client et mentionnent son numéro de téléphone. Les noms/adresses ne seront pas publiés sur demande. Les intéressés par les véhicules peuvent contacter directement l'annonceur par téléphone ou par e-mail.",
+    "paragraph3": "3. La relation juridique concernant la vente du véhicule existe exclusivement entre le client et l'éventuel acheteur du véhicule. Toute responsabilité de la part de AS est exclue.",
+    "paragraph4": "4. AS procède à la publication des annonces des véhicules sur les plateformes conformément au point 1 pour un tarif forfaitaire de 149 CHF (voitures) ou 98 CHF (motos) à la date convenue avec le client.",
+    "paragraph5": "5. Des modifications des annonces peuvent être effectuées gratuitement (notamment le prix, le kilométrage, les remarques ou les photos). Le client n'a pas d'accès direct aux annonces, mais peut faire part de ses demandes de modifications par téléphone ou par e-mail, celles-ci étant généralement effectuées dans un délai de 6 heures pendant les heures de bureau.",
+    "paragraph6": "6. Les annonces seront publiées pendant 70 jours. Elles peuvent être prolongées gratuitement jusqu'à la vente sur les plateformes actuelles mentionnées sur www.auto-moto-sales.ch.",
+    "paragraph7": "7. AS publie les annonces sur des sites connus et établis avec les meilleures chances de vendre avec succès le véhicule, mais ne peut en garantir le résultat.",
+    "paragraph8": "8. Si le client a donné l'ordre d'insertion à AS à la suite d'un contact téléphonique par AS, il a le droit de révoquer l'ordre dans les 14 jours, à condition que le montant de la facture dépasse 100 CHF. Selon l'Art. 40f, al. 3 en lien avec l'Art. 402 du Code des obligations, les frais et dépenses engagés jusqu'à ce moment doivent être remboursés.",
+    "paragraph9": "9. Si le client ne paie pas la facture dans le délai de paiement, des intérêts de retard de 5% sont dus sans rappel. À partir du deuxième rappel, des frais de traitement de 20 CHF par rappel sont dus.",
+    "paragraph10": "10. En cas de litige, la juridiction compétente est Langenthal, sous réserve des juridictions légales obligatoires."
+  },
+  "full": {
+    "title1": "Promotion Véhicules",
+    "title2": "Suisse",
+    "section1": "Profitez de notre service pour promouvoir vos véhicules dans toute la Suisse ! Chaque mois, des centaines de personnes recherchent des véhicules de toutes sortes avec nous et reçoivent gratuitement des informations sur votre voiture ainsi que les coordonnées du vendeur. Tous les véhicules sont mis en ligne jusqu'à leur vente réussie.",
+    "section2": "Bénéficiez de notre annonce individuelle, qui inclut vos coordonnées, ainsi que de notre position \"Top\" (en tête de liste), pour maximiser la visibilité. Avec une insertion prioritaire, comprenant jusqu'à 15 photos (sinon payant), nous garantissons la meilleure présentation de vos véhicules.",
+    "section3": "Ce package de services complet vous coûte seulement CHF 149.--(TVA incluse), et si vous inscrivez 2 véhicules, vous ne payez que CHF 129.-- par véhicule – frais uniques !",
+    "section4": "Les annonces restent en ligne sans limite de temps, vous permettant de promouvoir en permanence vos véhicules."
+  },
+  "full2": {
+    "title1": "Vente et Annonces",
+    "title2": "de Véhicules",
+    "part1": "Nous facilitons la vente de vos véhicules dans toute la Suisse. Chaque mois, plusieurs centaines de personnes recherchent tous types de véhicules avec nous et reçoivent gratuitement des documents sur le véhicule recherché et les coordonnées du vendeur. Tous les véhicules sont inscrits jusqu'à la vente réussie.",
+    "part2": "Notre objectif est de garantir un processus de vente rapide et efficace. Nous nous occupons de tous les détails pour que vous puissiez vous concentrer sur l'essentiel.",
+    "part3": "Ce package de services vous coûte seulement:\n\n- CHF 98.– pour 1 véhicule\n- À partir de 2 véhicules CHF 85.– chacun (TVA incluse)",
+    "part4": "Les annonces en ligne n'ont pas de limite de temps! Notre service est simple, fiable et transparent, vous offrant une visibilité maximale auprès des acheteurs potentiels dans toute la Suisse.",
+    "part5": "Nous facilitons la vente de vos véhicules à travers toute la Suisse. Chaque mois, plusieurs centaines de personnes recherchent différents types de véhicules avec nous et reçoivent des documents gratuits concernant le véhicule qu'elles recherchent, ainsi que les coordonnées du vendeur. Toutes les annonces restent en ligne jusqu'à ce que le véhicule soit vendu avec succès."
+  },
+  "SellAutoInt": {
+    "header": "Nous mettons vos véhicules en vente dans toute la Suisse.",
+    "description": "Chaque mois, des centaines de personnes recherchent chez nous des véhicules de toutes sortes et reçoivent gratuitement des documents sur le véhicule recherché et le nom du vendeur. Tous les véhicules sont inscrits jusqu'à leur vente réussie.",
+    "inserat": "Annonce individuelle avec vos coordonnées sous :",
+    "top": "Offre \"top\" (dans les premières positions)",
+    "prioritaet": "Insertion prioritaire avec jusqu'à 15 images (sinon payante)",
+    "kosten": "Ce forfait de service vous coûte seulement 149.-- CHF, à partir de 2 véhicules, 129.-- CHF chacun (TVA incl.)! Paiement unique :",
+    "internet": "Les annonces sur Internet sont illimitées dans le temps!",
+    "furtherpage": "Entrer les détails du véhicule"
+  },
+  "SellMotoInt": {
+    "header": "Nous mettons vos véhicules en vente dans toute la Suisse.",
+    "description": "Chaque mois, des centaines de personnes recherchent chez nous des véhicules de toutes sortes et reçoivent gratuitement des documents sur le véhicule recherché et le nom du vendeur. Tous les véhicules sont inscrits jusqu'à leur vente réussie.",
+    "inserat": "Annonce individuelle avec vos coordonnées sous :",
+    "dienstleistung": "Ce forfait de service vous coûte seulement 98.– CHF, à partir de 2 véhicules, 85.– CHF chacun (TVA incl.)!",
+    "internet": "Les annonces sur Internet sont illimitées dans le temps!",
+    "verkauf_an_privaten": "INSERTION VENTE PRIVÉE Moto De"
+  }
+}

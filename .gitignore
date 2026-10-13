@@ -1,0 +1,8 @@
+node_modules/
+.env*
+!.env.example
+.vercel/
+.openai/
+*.zip
+src/bmw-be149.png
+src/bmw-be149-final.png
