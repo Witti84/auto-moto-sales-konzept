@@ -39,7 +39,7 @@ Der Empfänger muss Multipart-Uploads mit den Feldern `kind`, `locale`, Personen
 
 ## SEO und GEO
 
-Vollständiger HTML-Inhalt vor JavaScript, eigene Sprach-URLs, wechselseitige hreflang-Verknüpfungen, Canonicals, individuelle Titles/Descriptions, XML-Sitemap, Unternehmensdaten als LocalBusiness und BreadcrumbList, klar strukturierte FAQ, interne Links, semantische Überschriften. Keine erfundenen Bewertungen, Verkaufserfolge oder Kennzahlen. Keine Rankinggarantie.
+Vollständiger HTML-Inhalt vor JavaScript, eigene Sprach-URLs, wechselseitige hreflang-Verknüpfungen, Canonicals, individuelle Titles/Descriptions, XML-Sitemap, Unternehmensdaten als LocalBusiness und BreadcrumbList, klar strukturierte FAQ mit JSON-LD aus denselben sichtbaren Antworten, Service-Daten auf den Leistungsseiten, interne Links und semantische Überschriften. Fahrzeugseiten enthalten vor dem Formular eigenständige Beschreibungen zu Leistung, Ablauf und benötigten Angaben. `src/seo.mjs` enthält die Übersetzungen und seitenspezifischen Metadaten. Keine erfundenen Bewertungen, Verkaufserfolge oder Kennzahlen. Keine Rankinggarantie.
 
 Kundenvorschau: `noindex,nofollow` und `robots.txt: Disallow /`. Für die spätere echte Domain: erst Inhalte und Rechtstexte freigeben, `SITE_URL` ändern, `INDEXABLE=true` setzen, alle bisherigen URL-Weiterleitungen ergänzen und die Sitemap in Search Console einreichen. Die alte Domain wird durch dieses Projekt nicht verändert.
 
@@ -49,8 +49,8 @@ Inhalte sind in `src/content.mjs` getrennt von Layout/Interaktion. Komponenten f
 
 ## Inhaltliche Freigabepunkte
 
-- Bisherige Preisangaben: Auto CHF 149 inkl. MwSt., ab zwei CHF 129 pro Fahrzeug; Motorrad CHF 98, ab zwei CHF 85. Vor Livegang bestätigen.
-- Bestehende Texte sind zur Inseratdauer widersprüchlich: AGB 70 Tage mit kostenloser Verlängerung, Marketingtexte ohne zeitliche Begrenzung. Im Entwurf transparent erklärt; definitive Regelung mit Kunde abstimmen.
+- Bestätigtes Inseratangebot: Auto CHF 149 inkl. MwSt., ab zwei CHF 129 pro Fahrzeug; Motorrad CHF 98, ab zwei CHF 85. Einmaliger Preis, fünf Plattformen, Autolina-Top-Platzierung inklusive.
+- Bestätigte Inseratdauer: bis zum Verkauf, ohne Abo oder monatliche Gebühren. Nach Verkaufsmeldung entfernt das Team die Inserate. Rechtstexte vor dem produktiven Betrieb mit dem bestätigten Angebot abgleichen.
 - Unternehmensdaten übernommen: Haldenstrasse 72, 4900 Langenthal, 062 923 99 66, info@auto-moto-sales.ch.
 - Rechtliches ist ein gekennzeichneter Entwurf mit Link auf bisherige AGB. Kein fertig freigegebener Rechtstext. Die Privacy-Copy ist derzeit ausdrücklich auf den Demo-Modus ausgelegt.
 - Intro wird pro Sitzung einmal gezeigt (Session-Storage-Marker ohne Personendaten), ist überspringbar, erneut abspielbar und respektiert reduzierte Bewegung. Laufzeit etwa 3,2 Sekunden plus Übergang.

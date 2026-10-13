@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
-import {languages,slugs} from '../src/content.mjs';
+import {languages,slugs,copy} from '../src/content.mjs';
 import handler from '../api/inquiry.mjs';
 let pages=0,links=0;
 for(const lang of languages)for(const [key,slug]of Object.entries(slugs[lang])){
@@ -15,6 +15,23 @@ for(const lang of languages)for(const [key,slug]of Object.entries(slugs[lang])){
  assert(html.includes('name="robots" content="noindex,nofollow"'),file+' draft indexing');
  for(const l of languages)assert(html.includes(`hreflang="${l}-CH"`),file+' hreflang '+l);
  for(const match of html.matchAll(/<script[^>]*type="application\/(?:ld\+json|json)"[^>]*>([\s\S]*?)<\/script>/g))JSON.parse(match[1]);
+  const graph=JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1])['@graph'];
+ const faq=graph.find(x=>x['@type']==='FAQPage');
+ if(['home','direct','broker','faq'].includes(key)){
+  assert(faq,file+' FAQ schema');
+  const expected=copy[lang].faqs.slice(0,key==='faq'?copy[lang].faqs.length:3);
+  assert.equal(faq.mainEntity.length,expected.length,file+' FAQ count');
+  for(const [i,[q,a]] of expected.entries()){
+   assert(html.includes(`<summary>${q}</summary><p>${a}</p>`),file+' visible FAQ');
+   assert.equal(faq.mainEntity[i].name,q);assert.equal(faq.mainEntity[i].acceptedAnswer.text,a);
+  }
+ }
+ const breadcrumb=graph.find(x=>x['@type']==='BreadcrumbList');
+ if(/^(auto|moto)/.test(key)){
+  assert.equal(breadcrumb.itemListElement.length,3,file+' service hierarchy');
+  assert(html.includes('class="wrap service-context"'),file+' service content');
+  assert(graph.some(x=>x['@type']==='Service'),file+' service schema');
+ }
  const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(new Set(ids).size,ids.length,file+' duplicate ids');
  for(const match of html.matchAll(/(?:href|src)="(\/[^"#]*)(?:#[^"]*)?"/g)){
   const target=match[1];if(target.startsWith('/api/'))continue;
