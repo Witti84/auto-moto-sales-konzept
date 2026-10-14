@@ -15,7 +15,7 @@ export default {async fetch(request){
   const data=await new Response(buffer,{headers:{'Content-Type':request.headers.get('content-type')}}).formData();
   if(data.get('website'))return reply(400,'invalid_request');
   const kind=data.get('kind');if(!['contact','autoDirect','motoDirect','autoBroker','motoBroker'].includes(kind)||!['de','fr','it','en'].includes(data.get('locale')))return reply(400,'invalid_request');
-  const required=['fname','lname','email','phone','consent',...(kind==='contact'?['message']:['brand','model','vehicleType','firstRegistration','mileage','price','power','color','street','zip','date','signature',...(kind.startsWith('auto')?['transmission','fuel','doors']:['cc','inspection','mfkPassed'])])];
+  const required=['fname','lname','email','phone','consent',...(kind==='contact'?['message']:['brand','model','vehicleType','firstRegistration','mileage','price',...(kind.startsWith('auto')?['transmission','fuel']:[])])];
   if(required.some(k=>typeof data.get(k)!=='string'||!data.get(k).trim()))return reply(400,'required_fields');
   if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.get('email')))return reply(400,'email');
   for(const [key,val]of data){if(typeof val==='string'&&val.length>5000)return reply(400,'field_too_long');}
